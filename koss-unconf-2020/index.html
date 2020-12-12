@@ -1,19 +1,62 @@
 <html>
   <head>
+    <title>Open Source - Then and Now | Himanshu Mishra</title>
     <link rel="stylesheet" href="../reveal.js/css/reveal.css" />
-    <link rel="stylesheet" href="../reveal.js/css/theme/white.css" />
+    <link rel="stylesheet" href="../reveal.js/css/theme/black.css" />
+    <style>
+      * {
+        text-transform: none !important;
+      }
+    </style>
   </head>
 
   <body>
     <div class="reveal">
       <div class="slides">
-        <section>Slide 1</section>
-        <section>Slide 2</section>
+        <section>
+          <h3>OPEN SOURCE</h3>
+          <p>Then and Now</p>
+          <br />
+
+          <p>
+            <small><strong>Himanshu Mishra</strong></small>
+            <small>2020.12</small>
+          </p>
+          <aside class="notes">Speaker notes of main slide.</aside>
+        </section>
+
+        <section data-transition="slide-in none-out">
+          <p>
+            Meet
+            <span class="fragment">@OrkoPunter</span>
+          </p>
+        </section>
+
+        <section data-transition="none-in" data-transition-speed="fast">
+          <h2>@OrkoPunter (Then)</h2>
+          <br />
+          <p class="fragment">College for 5 years</p>
+          <p class="fragment">1</p>
+          <p class="fragment">2</p>
+          <p class="fragment">3</p>
+          <p class="fragment">4</p>
+          <p class="fragment">5</p>
+          <p class="fragment">1</p>
+          <p class="fragment">2</p>
+          <p class="fragment">3</p>
+          <p class="fragment">4</p>
+          <p class="fragment">5</p>
+        </section>
+
+        <section></section>
       </div>
     </div>
     <script src="../reveal.js/js/reveal.js"></script>
+    <script src="../reveal.js/plugin/notes/notes.js"></script>
     <script>
-      Reveal.initialize();
+      Reveal.initialize({
+        plugins: [RevealNotes],
+      });
     </script>
   </body>
 </html>
